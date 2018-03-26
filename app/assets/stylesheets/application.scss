@@ -50,24 +50,18 @@ body {
 }
 
 .pagination {
-  font-family: 'exo_2black', sans-serif;
-}
-
-.pagination a {
-    color: black;
+  cursor: default;
+  height: 22px;
+  a, span, em {
+    padding: 0.2em 0.5em;
+    display: block;
     float: left;
-    padding: 8px 16px;
-    //text-decoration: none;
-    border-radius: 5px;
-    margin: 0 4px;
-
+    margin-right: 1px;
+  }
+  .disabled {
+    display: none;
+  }
 }
 
-.pagination a.active {
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
-
-}
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
