@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'exo_2black';
-    src: url('fonts/exo2-black-webfont.woff2') format('woff2'),
-         url('fonts/exo2-black-webfont.woff') format('woff');
+    src: font_url('fonts/exo2-black-webfont.woff2') format('woff2'),
+         font_url('fonts/exo2-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -12,8 +12,8 @@
 
 @font-face {
     font-family: 'exo_2black_italic';
-    src: url('exo2-blackitalic-webfont.woff2') format('woff2'),
-         url('exo2-blackitalic-webfont.woff') format('woff');
+    src: font_url('exo2-blackitalic-webfont.woff2') format('woff2'),
+         font_url('exo2-blackitalic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -24,8 +24,8 @@
 
 @font-face {
     font-family: 'exo_2bold';
-    src: url('exo2-bold-webfont.woff2') format('woff2'),
-         url('exo2-bold-webfont.woff') format('woff');
+    src: font_url('exo2-bold-webfont.woff2') format('woff2'),
+         font_url('exo2-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -36,8 +36,8 @@
 
 @font-face {
     font-family: 'exo_2italic';
-    src: url('exo2-italic-webfont.woff2') format('woff2'),
-         url('exo2-italic-webfont.woff') format('woff');
+    src: font_url('exo2-italic-webfont.woff2') format('woff2'),
+         font_url('exo2-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -48,8 +48,8 @@
 
 @font-face {
     font-family: 'exo_2medium';
-    src: url('exo2-medium-webfont.woff2') format('woff2'),
-         url('exo2-medium-webfont.woff') format('woff');
+    src: font_url('exo2-medium-webfont.woff2') format('woff2'),
+         font_url('exo2-medium-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -60,8 +60,8 @@
 
 @font-face {
     font-family: 'exo_2regular';
-    src: url('exo2-regular-webfont.woff2') format('woff2'),
-         url('exo2-regular-webfont.woff') format('woff');
+    src: font_url('exo2-regular-webfont.woff2') format('woff2'),
+         font_url('exo2-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

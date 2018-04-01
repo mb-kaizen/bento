@@ -15,7 +15,7 @@
  */
 
 @import "bootstrap";
-@import "font-awesome";
+@import url('https://fonts.googleapis.com/css?family=Mina:400,700');
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
@@ -24,7 +24,9 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   background: image_url('light-veneer.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-family: 'Mina', sans-serif;
+
+  //font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
 
 .navbar {
@@ -34,8 +36,9 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: #fbfcf4;
-  font-family: 'exo_2black', sans-serif;
+  font-family: 'Mina', sans-serif;
   font-size: 26px;
+  font-weight: bold;
 }
 
 .booyah-box {

@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 
 h1, h2, h3, h4, h5, h6 {
   margin:0;
@@ -32,3 +33,27 @@ body {
   margin-bottom: 15px;
   padding: 20px;
 }
+
+.pagination {
+  cursor: default;
+  height: 22px;
+  a, span, em {
+    padding: 0.2em 0.5em;
+    display: block;
+    float: left;
+    margin-right: 1px;
+  }
+  .disabled {
+    display: none;
+  }
+}
+
+.help-block {
+  color: #ff3333;
+  background-color: #FFEEEE;
+  border-radius: 3px;
+  padding: 2px 8px 2px 8px;
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
