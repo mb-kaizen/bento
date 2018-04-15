@@ -42,6 +42,7 @@
 
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
+  
     <h1><%= link_to place.name, place_path(place) %></h1>
     <i><%= place.address %></i><br /><br />
     <p><%= place.description %></p><br />
@@ -50,7 +51,7 @@
     <% end %>
     
     <% if place.photos.present? %>
-    <div class="display_inline">
+    <div class="col-10">
       <%= image_tag place.photos.first.picture, class: 'mini-img' %>
     </div>
     <% end %>
