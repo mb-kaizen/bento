@@ -1,24 +1,9 @@
-# README
+#README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Designed for foodies who want to share good places to eat. Utilizes the Google Maps API for location info. Can upload restaurant information, add ratings, and comments. 
 
-Things you may want to cover:
+Has user profile dash that shows all your comments, restaurants, and history. 
 
-* Ruby version
+Please create a profile an sign in for more.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+https://dry-chamber-44023.herokuapp.com/
